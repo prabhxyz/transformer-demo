@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English-German Translation Demo</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">English-German Translation Demo</h1>
+    
+    <div class="input-section">
+      <label for="inputText" class="input-label">Enter an English sentence:</label>
+      <textarea id="inputText" class="input-textarea" rows="3" placeholder="Type something in English..."></textarea>
+      <button id="translateBtn" class="translate-button">Translate</button>
+    </div>
+    
+    <div class="output-section">
+      <div class="output-block">
+        <h2 class="output-title">Original English:</h2>
+        <p id="englishOutput" class="output-text"></p>
+      </div>
+      <div class="output-block">
+        <h2 class="output-title">German Translation:</h2>
+        <p id="germanOutput" class="output-text"></p>
+      </div>
+      <div class="output-block">
+        <h2 class="output-title">English (Re-translated):</h2>
+        <p id="englishAgainOutput" class="output-text"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link to external JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
